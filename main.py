@@ -14,8 +14,10 @@ def select_language():
         language = input("that languages isn't valid choose again => ")
     return language
 
+language = select_language()
+
+
 def play_hangman():
-    language = select_language()
     chosen_word = random.choice(word_list[language])
     guess_Word = ['_'] * len(chosen_word)
     end_game = False
@@ -25,10 +27,10 @@ def play_hangman():
 
        
     print(chosen_word)
- 
-    while not end_game: 
+    
+    while lives > 0 or "_" in guess_Word:
         if language == 'english':
-            letter = input(f"\nword: {' '.join(guess_Word)} \n \n lives left: {lives} \n \n guess the word: ")
+            letter = input(f"\n word: {' '.join(guess_Word)} \n \n lives left: {lives} \n \n guess the word: ")
         elif language == 'español':
             letter  = input(f" \n”palabra: {' '.join(guess_Word)}\n \n vidas restantes: {lives} \n \n adivina la palabra: ")
 
@@ -37,8 +39,7 @@ def play_hangman():
                 for i in range(len(chosen_word)):
                     if letter == chosen_word[i]:
                         guess_Word[i] = letter
-                        print("\n perfect!!")
-                    
+                
             elif language == 'español' and letter not in chosen_word:
                 lives -= 1
                 print(stages[lives])
@@ -54,19 +55,19 @@ def play_hangman():
         else:
             letter = input("give me a letter again just one => ")
             
-        if lives == 0 :
+        if lives == 0 and language == 'español':
             print(chosen_word)
             end_game = True
-            print("\n \n You lose")
+            print("\n \n PERDISTE")
             break
-        if "_" not in guess_Word:
+
+        if "_" not in guess_Word and 'español':
             end_game = True
-            print("\n \n you won")
+            print("\n \n GANASTE! ")
             break
 
 def main():
     play_hangman()
-    select_language()
 
 
 if __name__ == "__main__":
