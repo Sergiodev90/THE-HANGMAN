@@ -9,8 +9,8 @@ print(logo)
 # hacer una funcion que valide cual idioma desea el usuario y de ahi sacar las letras segun 
 
 def select_language():
-    language = input(" which lenguagues do you to choose, español or english => ").lower()
-    while language not in ['español','english']:
+    language = input(" which lenguagues do you to choose, (es)ESPAÑOL or (en)ENGLISH => ").lower()
+    while language not in ['es','en']:
         language = input("that languages isn't valid choose again => ")
     return language
 
@@ -32,17 +32,17 @@ def play_hangman():
     while lives > 0 or "_" in guess_Word:
         
 
-        if language == 'english':
+        if language == 'en':
             letter = input(f"\n word: {' '.join(guess_Word)} \n \n lives left: {lives} \n \n guess the word: ")
-        elif language == 'español':
+        elif language == 'es':
             letter  = input(f" \npalabra: {' '.join(guess_Word)}\n \n vidas restantes: {lives} \n \n adivina la palabra: ")
 
-        if letter in letters_guessed and language == "english" :
+        if letter in letters_guessed and language == "en" :
             print(f" \n\n the letter '{letter}' is repeated")
             letter = input("please give me another letter ")
             continue
 
-        elif letter in letters_guessed and language == "español":
+        elif letter in letters_guessed and language == "es":
             print(f"\n\n la letra '{letter} esta repetida'")
             letter = input("\n\n dame otra vez una letra que no este repetida => ")
 
@@ -60,7 +60,7 @@ def play_hangman():
 
 
                             
-            elif language == 'español' and letter not in chosen_word:
+            elif language == 'es' and letter not in chosen_word:
                 lives -= 1
                 print(stages[lives])
                 print("palabra incorrecta")
@@ -75,28 +75,28 @@ def play_hangman():
                 
             
 
-        elif language == 'español' and len(letter) != 1 and letter.isalpha():
+        elif language == 'es' and len(letter) != 1 and letter.isalpha():
             letter = input("dame de nuevo la letra porfavor solo una recuerda bien => ")
         else:
             letter = input("give me a letter again just one => ")
             
-        if lives == 0 and language == 'español':
+        if lives == 0 and language == 'es':
             end_game = True
             print("\n \n PERDISTE")
             print(f"\n\n la palabra fue => {chosen_word.upper()}")
             break
 
-        elif lives == 0 and language == "english":
+        elif lives == 0 and language == "en":
             print("\n \n YOU LOST")
             print(f"\n \n the word was => {chosen_word.upper()}")
             break
 
-        if "_" not in guess_Word and language ==  'español':
+        if "_" not in guess_Word and language ==  'es':
             end_game = True
             print("\n \n GANASTE! ")
             break
 
-        elif "_" not in guess_Word and language ==  "english":
+        elif "_" not in guess_Word and language ==  "en":
             print("\n \n YOU WON ")
             break
     
@@ -104,7 +104,7 @@ def play_hangman():
             
             if lives == 3:
                 letter_to_reveal = ''
-                if language == 'español':
+                if language == 'es':
                     print("te dare unas pistas")
                     for x in range(len(guess_Word)-1 -1 -1):
                         if guess_Word[x] == '_':

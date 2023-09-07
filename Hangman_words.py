@@ -1,7 +1,7 @@
 
 
 word_list = {
-    'español': [
+    'es': [
         'abruptamente',
         'absurdo',
         'abismo',
@@ -214,7 +214,7 @@ word_list = {
         'zombi'
 
     ],
-    'english': [
+    'en': [
         'abruptly',
         'absurd',
         'abyss',
