@@ -46,7 +46,7 @@ def play_hangman():
     secuencia_2_despues_de_3 = []
     secuencia_3_despues_de_2 = []
 
-    print(random_word)
+    # print(random_word)
     
     while lives > 0 or "_" in guess_Word:
             
@@ -184,11 +184,7 @@ def play_hangman():
                         else:
                             secuencia_3_despues_de_2.append(False)
 
-                    print(secuencia_3_despues_de_2)
-                    print(secuencia_2_despues_de_3)
-
                 if True in secuencia_2_despues_de_3:
-                    print("Se encontró al menos un 2 después de un 3.")
                     break
 
         def one_more_live(lives):

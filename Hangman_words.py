@@ -1785,16 +1785,16 @@ ad_list = {
         'reloj': 'Tengo manecillas y marco el tiempo, suelo estar en la pared o en la muñeca. ¿Qué objeto soy?'
     },
     'en':{
-        'sol': "I'm a star that shines in the sky during the day, but I disappear at night. Who am I?",
-        'agua': "I'm transparent and essential for life. I flow in rivers and oceans. What am I?",
-        'llave': "I'm small, metallic, and I open doors. What object am I?",
-        'plátano': "I'm yellow on the outside, white on the inside, and often eaten as a dessert. What fruit am I?",
-        'gato': "I have whiskers and soft paws, I love hunting mice, and I'm a domestic animal. Who am I?",
-        'nube': "I'm white and fluffy in the sky, sometimes bringing rain. What am I?",
-        'hoja': "I'm green, thin, and you find me on trees. I perform photosynthesis. What part of a plant am I?",
-        'libro': "I'm filled with words and stories, you can read me in a library. What object am I?",
-        'luna': "I'm a natural satellite of Earth, I shine at night, and I have phases. Who am I?",
-        'reloj': "I have hands and I mark time, I'm usually on the wall or on the wrist. What object am I?",
+        'son': "I'm a star that shines in the sky during the day, but I disappear at night. Who am I?",
+        'water': "I'm transparent and essential for life. I flow in rivers and oceans. What am I?",
+        'key': "I'm small, metallic, and I open doors. What object am I?",
+        'banana': "I'm yellow on the outside, white on the inside, and often eaten as a dessert. What fruit am I?",
+        'cat': "I have whiskers and soft paws, I love hunting mice, and I'm a domestic animal. Who am I?",
+        'cloud': "I'm white and fluffy in the sky, sometimes bringing rain. What am I?",
+        'paper': "I'm green, thin, and you find me on trees. I perform photosynthesis. What part of a plant am I?",
+        'book': "I'm filled with words and stories, you can read me in a library. What object am I?",
+        'moon': "I'm a natural satellite of Earth, I shine at night, and I have phases. Who am I?",
+        'watch': "I have hands and I mark time, I'm usually on the wall or on the wrist. What object am I?",
     }
 }
 
