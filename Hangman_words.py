@@ -27,7 +27,7 @@ word_list = {
         'meaning': 'Calle ancha, generalmente con árboles a los lados.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=avenida',
     },
-    'incómodo': {
+    'incomodo': {
         'meaning': 'Que causa molestia o incomodidad.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=inc%C3%B3modo',
     },
@@ -75,15 +75,15 @@ word_list = {
         'meaning': 'Verbo que significa confundir o desconcertar.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=boggle',
     },
-    'ratón': {
+    'raton': {
         'meaning': 'Roedor pequeño y común en muchas partes del mundo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=rat%C3%B3n',
     },
-    'vagón': {
+    'vagon': {
         'meaning': 'Carro o vehículo que se utiliza para transportar carga.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=vag%C3%B3n',
     },
-    'caja llena': {
+    'caja': {
         'meaning': 'Contenedor que contiene objetos u otros contenedores.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=caja+llena',
     },
@@ -91,11 +91,11 @@ word_list = {
         'meaning': 'Persona que trabaja en la cría de ganado, típica de la cultura del oeste de Estados Unidos.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=vaquero',
     },
-    'búfalo': {
+    'bufalo': {
         'meaning': 'Mamífero grande y pesado que se encuentra en América del Norte.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=b%C3%BAfalo',
     },
-    'bufón': {
+    'bufon': {
         'meaning': 'Persona que actúa de manera cómica o tonta para entretener a otros.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=buf%C3%B3n',
     },
@@ -155,7 +155,7 @@ word_list = {
         'meaning': 'Que causa mareo o vértigo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=mareante',
     },
-    'dúplex': {
+    'duplex': {
         'meaning': 'Vivienda o edificio con dos pisos o niveles.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=d%C3%BAplex',
     },
@@ -179,7 +179,7 @@ word_list = {
         'meaning': 'Secuencia de letras utilizada en música medieval.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=euouae',
     },
-    'éxodo': {
+    'exodo': {
         'meaning': 'Movimiento masivo de personas que abandonan un lugar en busca de mejores condiciones de vida.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=%C3%A9xodo',
     },
@@ -211,10 +211,6 @@ word_list = {
         'meaning': 'Calidad de ser esponjoso o suave al tacto.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=esponjosidad',
     },
-    'pasar volando': {
-        'meaning': 'Moverse rápidamente a través de un lugar.',
-        'link': 'https://www.wordreference.com/es/en/translation.asp?spen=pasar+volando',
-    },
     'digitalis': {
         'meaning': 'Género de plantas que incluye la dedalera.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=digitalis',
@@ -235,7 +231,7 @@ word_list = {
         'meaning': 'Que provoca risa o diversión.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=divertido',
     },
-    'charlatán': {
+    'charlatan': {
         'meaning': 'Persona que habla mucho y sin fundamento.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=charlat%C3%A1n',
     },
@@ -259,7 +255,7 @@ word_list = {
         'meaning': 'Término coloquial para un dispositivo o aparato mecánico.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=gizmo',
     },
-    'luciérnaga': {
+    'luciernaga': {
         'meaning': 'Insecto que emite luz en la oscuridad.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=luci%C3%A9rnaga',
     },
@@ -270,10 +266,6 @@ word_list = {
     'nudoso': {
         'meaning': 'Que tiene nudos o protuberancias.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=nudoso',
-    },
-    'gnóstico': {
-        'meaning': 'Relacionado con la gnosis o conocimiento espiritual.',
-        'link': 'https://www.wordreference.com/es/en/translation.asp?spen=gn%C3%B3stico',
     },
     'cotilleo': {
         'meaning': 'Chisme o conversación ociosa sobre la vida de otras personas.',
@@ -295,7 +287,7 @@ word_list = {
         'meaning': 'Signo de puntuación utilizado para separar palabras o frases.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=guion',
     },
-    'iatrogénico': {
+    'iatrogenico': {
         'meaning': 'Relacionado con enfermedades o efectos secundarios causados por la atención médica.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=iatrog%C3%A9nico',
     },
@@ -399,7 +391,7 @@ word_list = {
         'meaning': 'Pequeña estructura o puesto de venta de periódicos, revistas u otros productos.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=quiosco',
     },
-    'cursilería': {
+    'cursileria': {
         'meaning': 'Elemento o comportamiento que es excesivamente sentimental o decorativo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=cursiler%C3%ADa',
     },
@@ -435,7 +427,7 @@ word_list = {
         'meaning': 'Líquido transparente que circula en el sistema linfático del cuerpo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=linfa',
     },
-    'marqués': {
+    'marques': {
         'meaning': 'Título de nobleza.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=marqu%C3%A9s',
     },
@@ -451,7 +443,7 @@ word_list = {
         'meaning': 'Tipo de radiación electromagnética y un electrodoméstico utilizado para calentar alimentos.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=microondas',
     },
-    'mnemónico': {
+    'mnemonico': {
         'meaning': 'Ayuda de memoria o dispositivo para recordar información.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=mnem%C3%B3nico',
     },
@@ -467,7 +459,7 @@ word_list = {
         'meaning': 'Establecimiento de entretenimiento que suele estar abierto durante la noche, con música y baile.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=club+nocturno',
     },
-    'hoy en día': {
+    'hoy': {
         'meaning': 'En la época actual o en el presente.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=hoy+en+d%C3%ADa',
     },
@@ -479,7 +471,7 @@ word_list = {
         'meaning': 'Criatura mítica asociada con la naturaleza y la belleza.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=ninfa',
     },
-    'ónix': {
+    'onix': {
         'meaning': 'Tipo de piedra semipreciosa que suele ser de color negro o verde oscuro.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=%C3%B3nix',
     },
@@ -499,15 +491,12 @@ word_list = {
         'meaning': 'Conjunto de ropa cómoda utilizado para dormir.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=piyama',
     },
-    'cucú': {
-        'meaning': 'Onomatopeya que imita el sonido de un cuco.',
-        'link': 'https://www.wordreference.com/es/en/translation.asp?spen=cuc%C3%BA',
-    },
+
     'flema': {
         'meaning': 'Moco o mucosidad en las vías respiratorias.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=flema',
     },
-    'píxel': {
+    'pixel': {
         'meaning': 'El punto más pequeño en una imagen digital.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=p%C3%ADxel',
     },
@@ -603,7 +592,7 @@ word_list = {
         'meaning': 'Criatura mitológica con cabeza humana y cuerpo de león.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=esfinge',
     },
-    'aspersión': {
+    'aspersion': {
         'meaning': 'Acción de rociar o esparcir líquido sobre algo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=aspersi%C3%B3n',
     },
@@ -643,7 +632,7 @@ word_list = {
         'meaning': 'Moverse en un círculo o alrededor de un punto.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=girar',
     },
-    'síndrome': {
+    'sindrome': {
         'meaning': 'Conjunto de síntomas o características que indican una condición médica o psicológica.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=s%C3%ADndrome',
     },
@@ -675,11 +664,11 @@ word_list = {
         'meaning': 'Secuencia de tres vocales que se pronuncian juntas en una sola sílaba.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=triptongo',
     },
-    'duodécimo': {
+    'duodecimo': {
         'meaning': 'Que ocupa el lugar número doce en una serie o secuencia.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=duod%C3%A9cimo',
     },
-    'duodécimos': {
+    'duodecimos': {
         'meaning': 'Forma plural de "duodécimo", que se refiere a los elementos que ocupan el lugar número doce en una serie o secuencia.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=duod%C3%A9cimos',
     },
@@ -695,7 +684,7 @@ word_list = {
         'meaning': 'Abrir o soltar los broches o botones de una prenda o dispositivo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=desabrochar',
     },
-    'barrio alto': {
+    'barrio': {
         'meaning': 'Área de una ciudad o localidad que generalmente está asociada con la clase alta o acomodada.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=barrio+alto',
     },
@@ -711,11 +700,11 @@ word_list = {
         'meaning': 'Bebida alcohólica destilada originaria de Europa del Este y Rusia.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=vodka',
     },
-    'vudú': {
+    'vudu': {
         'meaning': 'Sistema de creencias y prácticas mágicas originario de algunas culturas africanas y afrocaribeñas.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=vud%C3%BA',
     },
-    'vórtice': {
+    'vortice': {
         'meaning': 'Remolino de líquido o aire que gira alrededor de un punto central.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=v%C3%B3rtice',
     },
@@ -767,7 +756,7 @@ word_list = {
         'meaning': 'Que siente o muestra temor con facilidad; asustadizo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=miedoso',
     },
-    'brujería': {
+    'brujeria': {
         'meaning': 'Conjunto de creencias y prácticas relacionadas con la magia y lo sobrenatural.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=brujer%C3%ADa',
     },
@@ -787,7 +776,7 @@ word_list = {
         'meaning': 'Esta palabra no parece tener un meaning en español. Puede ser un error tipográfico o una palabra en otro idioma.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=wiverino',
     },
-    'xilófono': {
+    'xilofono': {
         'meaning': 'Instrumento musical de percusión formado por láminas de madera dispuestas en orden ascendente y golpeadas con baquetas.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=xil%C3%B3fono',
     },
@@ -795,7 +784,7 @@ word_list = {
         'meaning': 'Embarcaciones de recreo de lujo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=yates',
     },
-    '¡upi!': {
+    'yupi': {
         'meaning': 'Expresión de alegría o entusiasmo.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=%C2%A1upi%21',
     },
@@ -810,10 +799,6 @@ word_list = {
     'delicioso': {
         'meaning': 'Que tiene un sabor muy agradable y placentero.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=delicioso',
-    },
-    'céfiro': {
-        'meaning': 'Viento suave y agradable que sopla en primavera.',
-        'link': 'https://www.wordreference.com/es/en/translation.asp?spen=c%C3%A9firo',
     },
     'zigzag': {
         'meaning': 'Línea que forma una serie de ángulos alternados y agudos.',
@@ -839,6 +824,87 @@ word_list = {
         'meaning': 'Persona que se cree que ha sido reanimada después de la muerte y no tiene voluntad propia.',
         'link': 'https://www.wordreference.com/es/en/translation.asp?spen=zombi',
     },
+    "manzana verde": {
+        "meaning": "Una manzana que tiene un color verde en su piel.",
+        "link": "https://ejemplo.com/manzana_verde",
+    },
+    "ciudad grande": {
+        "meaning": "Una ciudad de gran tamaño con una población considerable.",
+        "link": "https://ejemplo.com/ciudad_grande",
+    },
+    "playa hermosa": {
+        "meaning": "Una playa que es particularmente hermosa o escénica.",
+        "link": "https://ejemplo.com/playa_hermosa",
+    },
+    "coche rojo": {
+        "meaning": "Un automóvil de color rojo.",
+        "link": "https://ejemplo.com/coche_rojo",
+    },
+    "montaña alta": {
+        "meaning": "Una montaña que tiene una gran altitud.",
+        "link": "https://ejemplo.com/montaña_alta",
+    },
+    "casa blanca": {
+        "meaning": "Una casa que tiene un color blanco en su exterior.",
+        "link": "https://ejemplo.com/casa_blanca",
+    },
+    "sol brillante": {
+        "meaning": "Un sol que brilla intensamente en el cielo.",
+        "link": "https://ejemplo.com/sol_brillante",
+    },
+    "mar azul": {
+        "meaning": "Un mar con aguas de color azul.",
+        "link": "https://ejemplo.com/mar_azul",
+    },
+    "arbol frondoso": {
+        "meaning": "Un árbol que tiene muchas hojas y ramas.",
+        "link": "https://ejemplo.com/árbol_frondoso",
+    },
+    "rio caudaloso": {
+        "meaning": "Un río con un flujo de agua abundante y rápido.",
+        "link": "https://ejemplo.com/río_caudaloso",
+    },
+    "granja rural": {
+        "meaning": "Una granja ubicada en una zona rural o fuera de la ciudad.",
+        "link": "https://ejemplo.com/granja_rural",
+    },
+    "cielo estrellado": {
+        "meaning": "Un cielo nocturno con muchas estrellas visibles.",
+        "link": "https://ejemplo.com/cielo_estrellado",
+    },
+    "playa tranquila": {
+        "meaning": "Una playa que es pacífica y tiene pocas personas.",
+        "link": "https://ejemplo.com/playa_tranquila",
+    },
+    "coche deportivo": {
+        "meaning": "Un automóvil diseñado para altas velocidades y rendimiento.",
+        "link": "https://ejemplo.com/coche_deportivo",
+    },
+    "montaña nevada": {
+        "meaning": "Una montaña cubierta de nieve en su cima o laderas.",
+        "link": "https://ejemplo.com/montaña_nevada",
+    },
+    "casa antigua": {
+        "meaning": "Una casa que tiene muchos años de antigüedad.",
+        "link": "https://ejemplo.com/casa_antigua",
+    },
+    "sol radiante": {
+        "meaning": "Un sol que emite luz brillante y calor intenso.",
+        "link": "https://ejemplo.com/sol_radiante",
+    },
+    "mar tranquilo": {
+        "meaning": "Un mar con aguas en calma y sin oleaje.",
+        "link": "https://ejemplo.com/mar_tranquilo",
+    },
+    "arbol frutal": {
+        "meaning": "Un árbol que produce frutas comestibles.",
+        "link": "https://ejemplo.com/árbol_frutal",
+    },
+    "rio serpenteante": {
+        "meaning": "Un río que sigue un curso sinuoso o en forma de serpentina.",
+        "link": "https://ejemplo.com/río_serpenteante",
+    },
+
 },
     'en' :{
 
@@ -1710,7 +1776,7 @@ ad_list = {
         'sol': 'Soy una estrella que brilla en el cielo durante el día, pero desaparezco por la noche. ¿Quién soy?',
         'agua': 'Soy transparente y esencial para la vida. Fluyo en ríos y océanos. ¿Qué soy?',
         'llave': 'Soy pequeña, metálica y abro puertas. ¿Qué objeto soy?',
-        'plátano': 'Soy amarillo por fuera, blanco por dentro, y a menudo se me come de postre. ¿Qué fruta soy?',
+        'platano': 'Soy amarillo por fuera, blanco por dentro, y a menudo se me come de postre. ¿Qué fruta soy?',
         'gato': 'Tengo bigotes y patas suaves, me encanta cazar ratones y soy un animal doméstico. ¿Quién soy?',
         'nube': 'Soy blanca y esponjosa en el cielo, a veces traigo lluvia. ¿Qué soy?',
         'hoja': 'Soy verde, delgada y me encuentras en los árboles. Realizo la fotosíntesis. ¿Qué parte de una planta soy?',
@@ -1736,7 +1802,26 @@ ad_list = {
 
 
 
+# number_range_random = 1
+# keys = list(ad_list['es'].keys())
 
+# random_keys = []
+# random_values = []
+# for _ in range(number_range_random):
+#     random_key = random.choice(keys)
+#     random_value = ad_list['es'][random_key]
+#     random_values.append(random_value)
+#     random_keys.append(random_key)
+
+# # Imprimir los valores seleccionados aleatoriamente
+# for value in random_values:
+#     print(value)
+# for key in random_keys:
+#     print(key)
+
+
+
+    
 
 # for english_word, details in word_list['en'].items():
 #     meaning = details['meaning']
@@ -1746,15 +1831,29 @@ ad_list = {
 #     print(f"Enlace: {link}")
 #     print()
 
-english_words = list(word_list['en'].keys())
-print(english_words)
-# Selecciona una palabra al azar de la lista
-random_word = random.choice(english_words)
+# lista_original = [6, 5, 5, 4, 3, 3, 2, 3]
+# encontre_2_despues_de_3 = []
 
-# Obtén el significado de la palabra seleccionada
-meaning = word_list['en'][random_word]['link']
+# for i in range(len(lista_original) - 1):
+#     if lista_original[i] == 3 and lista_original[i + 1] == 2:
+#         encontre_2_despues_de_3.append(True)
+#     else:
+#         encontre_2_despues_de_3.append(False)
 
-# Imprime el significado
-print(f"Palabra: {random_word}")
-print(f"Significado: {meaning}")
+# if True in encontre_2_despues_de_3:
+#     print("Se encontró al menos un 2 después de un 3.")
+# else:
+#     print("No se encontró un 2 después de un 3.")
 
+# print(encontre_2_despues_de_3)
+
+words = list(word_list['es'].keys())
+random_word = random.choice(words)
+guess_Word = ['_'] * len(random_word)
+
+
+for idioma,palabras in word_list.items():
+    for palabra, datos in palabras.items():
+        print(datos)
+        if ' ' in palabra:
+            print(f'La palabra "{palabra}" en {idioma} contiene espacios.')
