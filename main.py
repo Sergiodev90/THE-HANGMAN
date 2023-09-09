@@ -125,6 +125,8 @@ def play_hangman():
                     response =  input(f"\n \n al parecer te has quedado con solo una vida, te dare una segunda oportunidad pero si logras completar mi adivinanza.te dare 2 vidas mas si adivinas , recuerda solo tienes {lives_Riddle} oportunidades (s)SI / (n)NO => ")
                 if language == 'en' :
                     response = input(f"\n \n It seems you have only one life left, I'll give you a second chance, but if you manage to solve my riddle, I'll give you 2 more lives if you guess it. Remember, you only have {lives_Riddle} opportunity/opportunities. (y)YES / (n)NO => ")
+                else:
+                    break
                 if (response == 's' or response == 'y') and len(response) == 1 and response.isalpha():
 
                     for _ in range(number_range):
