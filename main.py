@@ -13,7 +13,7 @@ print(logo)
 def select_language():
     language = input(" which lenguagues do you to choose, (es)ESPAÑOL or (en)ENGLISH => ").lower()
     while language not in ['es','en']:
-        language = input("that languages isn't valid choose again => ")
+        language = input("those languages aren't valid choose again => ")
     return language
 
 language = select_language()
@@ -23,7 +23,6 @@ def play_hangman():
     global lives,lives_list,response
 
     words = list(word_list[language].keys())
-
     random_word = random.choice(words)
     guess_Word = ['_'] * len(random_word)
     for i,x in enumerate(random_word):
@@ -106,27 +105,42 @@ def play_hangman():
 
         if lives == 0 and language == 'es':
             print(f"\n \n PERDISTE \n \n la palabra fue => {random_word.upper()} \n \n el link de la palabra por si quiere saberlo  => {link.upper()}")
-            break
+            
 
         elif lives == 0 and language == "en":
             print(f"\n \n YOU LOST \n \n the word was => {random_word.upper()} \n \n the link of the word if you want to know it => {link.upper()}")
-            break
+            
 
         elif "_" not in guess_Word and language ==  'es':
             print("\n \n GANASTE! ")
-            break
+            
 
         elif "_" not in guess_Word and language ==  "en":
             print("\n \n YOU WON ")
-            break
-        
+            
+        if lives == 0 or '_' not in guess_Word:
+            if language == 'en':
+                letter = input("\n \n would you like to play again (y)YES/(n)NO").lower()
+                if letter == 'y':
+                    play_hangman()
+            if language == 'es':
+                letter = input("\n \n te gustaria volver a jugar SI(s)/NO(N) => ").lower
+                if letter == 's':
+                    play_hangman()
+
         while lives == 1 and True not in secuencia_2_despues_de_3:
                 if language == 'es' :
                     response =  input(f"\n \n al parecer te has quedado con solo una vida, te dare una segunda oportunidad pero si logras completar mi adivinanza.te dare 2 vidas mas si adivinas , recuerda solo tienes {lives_Riddle} oportunidades (s)SI / (n)NO => ")
+                    if response != 's':
+                        print("no pusiste la letra incorrecta")
+                        break
+
                 if language == 'en' :
                     response = input(f"\n \n It seems you have only one life left, I'll give you a second chance, but if you manage to solve my riddle, I'll give you 2 more lives if you guess it. Remember, you only have {lives_Riddle} opportunity/opportunities. (y)YES / (n)NO => ")
-                else:
-                    break
+                    if response != 'y':
+                        print("you did put the wrong answer")
+                        break
+
                 if (response == 's' or response == 'y') and len(response) == 1 and response.isalpha():
 
                     for _ in range(number_range):
@@ -161,11 +175,19 @@ def play_hangman():
                                 response = input(f"tu respuesta es incorrecta tienes ahora {lives_Riddle} vida , colocalo otra vez => ")
                                 if response != key:
                                     lives_Riddle -= 1
+                                if response == key:    
+                                    print("\n muy bien")
+                                    lives = lives + 2
+                                    print(f"Ahora tienes 2 mas ")
                             if language == 'en':
                                 lives_Riddle -= 1
                                 response = input(f"you answer is wrong now you have {lives_Riddle} live, put again => ")
                                 if response != key:
                                     lives_Riddle -= 1
+                                if response == key:
+                                    print("\n very well")
+                                    lives = lives + 2
+                                    print(f"Now you've got 2 more")
                         if lives_Riddle == 0:
                             if language == 'es':
                                 print(f"perdiste continua jugando con {lives}")
@@ -188,6 +210,10 @@ def play_hangman():
 
                 if True in secuencia_2_despues_de_3:
                     break
+
+                if response == 'n':
+                    break
+
 
         def one_more_live(lives):
             letter_to_reveal = ''
